@@ -1,0 +1,48 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 194px;
+}
+
+/* added for error messages*/
+.redfont{
+  color:#f44336;
+}
+
+/*.back {
+background: #e2e2e2;
+width: 100%;
+position: absolute;
+top: 0;
+bottom: 0;
+}*/
+
+.div-center {
+width: 400px;
+height: 400px;
+background-color: #fff;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+max-width: 50%;
+max-height: 25%;
+overflow: auto;
+padding: 1em 2em;
+border: 2px solid #ccc;
+display: table;
+}
+
+div.content {
+display: table-cell;
+vertical-align: middle;
+}
+.button-center{
+text-align: center;
+margin-top: 14px;
+
+}
